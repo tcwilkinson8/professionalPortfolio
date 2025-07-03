@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conor Wilkinson | Software Developer Portfolio</title>
+    <link rel="stylesheet" href="personalWebsite/css/style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header>
+        <div class="hero-section">
+            <div class="hero-container">
+                <img id="hero-img" src="personalWebsite/Images/York.jpg" alt="York">
+                <img id="hero-img-next">
+            </div>
+            <div class="hero-text">
+                
+            </div>
+        </div>
+    </header>
+    
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="about-container">
+            <h2>About Me</h2>
+            <p class="about-intro">
+                Hi! I'm Conor, a passionate software developer with a keen eye for <b>design, functionality, and user experience</b>. 
+                After completing the <b>Web & Software Development Programme</b>, I’ve honed my skills in <b>HTML, CSS, JavaScript, and SQL</b>, 
+                creating sleek and engaging interfaces that bring ideas to life.
+            </p>
+            
+            <h3>What I Bring to the Table:</h3>
+            <ul class="skills-list">
+                <li>🚀 <b>Responsive Web Design</b> – Crafting intuitive, mobile-friendly experiences.</li>
+                <li>🎨 <b>Dynamic Animations & Transitions</b> – Adding smooth interactions that enhance usability.</li>
+                <li>💻 <b>Optimized Navigation & Scalable Structures</b> – Ensuring seamless site performance.</li>
+                <li>🛠 <b>Problem-Solving & Debugging</b> – Tackling challenges with efficiency and precision.</li>
+                <li>📈 <b>Strategic Thinking & Collaboration</b> – Blending creativity with technical expertise.</li>
+            </ul>
+    
+            <h3>My Journey:</h3>
+            <p>
+                With a background in <b>retail management</b>, I’ve developed strong <b>communication, leadership, and analytical skills</b>—all of which 
+                directly enhance my approach to building engaging and user-centric websites.
+            </p>
+    
+            <p class="cta">Let's connect and create something amazing! <a href="#contact">Reach out today</a>.</p>
+        </div>
+    </section>
+    
+    
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>A fully responsive portfolio showcasing my best work.</p>
+            <a href="#" class="btn">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Navigation Menu Optimization</h3>
+            <p>Improving UX with intuitive navigation menus.</p>
+            <a href="#" class="btn">View Project</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact-container">
+            <h2>Get in Touch</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Your Name">
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Your Email">
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required placeholder="Your Message"></textarea>
+                
+                <button type="submit">Send Message</button>
+                <p id="form-status"></p> <!-- Success/Error Feedback -->
+            </form>
+        </div>
+    </section>
+    
+
+    <script src="personalWebsite/javascript/script.js"></script>
+</body>
+</html>
